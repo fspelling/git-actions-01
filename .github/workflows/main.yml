@@ -14,3 +14,8 @@ jobs:
         run: |
           echo "inicializando segunda acao"
           echo "finalizando segunda acao"
+      - name: "acao python"
+        run: |
+          variavel = "Ola python"
+          print(variavel)
+        shell: python

@@ -8,3 +8,9 @@ jobs:
     name: "primeiro job"
     runs-on: ubuntu-latest
     steps:
+      - name: "primeira acao"
+        run: echo "primeira acao"
+      - name: "segunda acao"
+        run: |
+          echo "inicializando segunda acao"
+          echo "finalizando segunda acao"

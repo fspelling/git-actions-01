@@ -25,3 +25,7 @@ jobs:
     steps:
       - name: "Verificando versao NodeJS"
         run: node --version
+      - name: "Instalacao do NodeJS v24.11.1"
+        uses: actions/setup-node@v6
+        with:
+          node-version: 'v24.11.1'
